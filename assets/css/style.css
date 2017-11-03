@@ -1,0 +1,258 @@
+body {background-image: url(../images/back.png);
+	width: 100%;
+	height: 100%;
+	/*background-size: cover;*/
+	z-index: -1;  }
+
+.top-bar {width: 100%;
+		background-color: #ffffff;
+		z-index: 1;
+		height: 74px;
+		border-bottom: 0.5px solid #d3d3d3;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+
+		}
+
+
+
+.header { background-color: #4aaaa5;
+		  width: 15%;
+		  text-align: center;
+		  font-size: 24px;
+		  color: #ffffff;
+		  padding: 25px;
+		  font-weight: bold;
+		  margin-left: 75px;
+		  margin-right: auto;
+		  font-family: "Georgia";
+		  display: inline-block;
+		  float: left;
+		  left: 75px;
+		  position: relative;
+
+}
+hr { color: #777777;
+	}
+
+.about {font-family: "Helvetica";
+	font-size: 15px;
+	float: left;
+	width: 650px;
+	background-color: #ffffff;
+	margin-top: 75px;
+	margin-left: 75px;
+	display: block;
+	clear: left;
+	border: 0.25px solid #d3d3d3; 
+	padding: 20px;
+	position: relative;
+	left: 75px;
+	top: 55px;	}
+
+#bio-img { float: left;
+			padding-right: 12px;
+			padding-bottom: 5px;
+ }
+
+#aboutp {color: #777777;
+		font-weight: 500;}
+
+a {font-family: "Helvetica";
+	font-size: 15px;}
+
+a:link {color: #777777;
+	text-decoration: none;
+
+	}
+a:visited {color: #4aaaa5;
+	text-decoration: none;
+
+}	
+a:hover {color: #858585;
+	text-decoration: underline;
+
+}
+a:active { color: #858585;
+	text-decoration: underline;
+
+}
+a:focus { color: #4aaaa5;
+	text-decoration: underline; }
+
+.nav { 
+	float: right;
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	padding: 25px;
+	position: relative;
+	right: 35px;
+
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.nav li:not(:first-child):before {
+    content: " | ";
+}
+
+.connect {float: left;
+			text-align: center;
+			background-color: #ffffff;
+			border: 0.25px solid #d3d3d3;
+			padding: 25px;
+			width: 200px;
+			margin-top: 75px;
+			position: relative;
+			right: -115px;
+			top: 55px;}
+
+h2 {font-size: 20px;
+	color: #4aaaa5;
+	font-weight: bold;}
+
+#abouthead {font-size: 20px;
+	color: #4aaaa5;
+	font-weight: bold;
+	font-family: "Georgia"}
+
+ .footer{	
+ 	position: relative;
+    left: 0px;
+    bottom: 0px;
+    top: 750px;
+    width: 100%;
+    background-color: #777777;
+    color: white;
+    border-top: 5px solid #4aaaa5;
+    height: 74px;
+    margin: 0 auto;
+    text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	clear: both;}
+
+.contactbody {
+	font-family: "Helvetica";
+	font-size: 15px;
+	float: left;
+	width: 650px;
+	background-color: #ffffff;
+	margin-top: 75px;
+	margin-left: 75px;
+	display: block;
+	clear: left;
+	border: 0.25px solid #d3d3d3; 
+	padding: 20px;
+	position: relative;
+	left: 75px;
+	top: 55px;
+}
+
+#header {
+	font-size: 25px;
+}
+
+input {
+	width: 100%;
+	position: relative;
+	left: 0;
+	right: 2;
+	padding-left: 5px;
+	background-color: #ebebeb;
+	border: none;
+	color: #777777;
+	height: 30px;
+}
+
+input[type=submit] {
+	-webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #4aaaa5;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+  width: 150px;
+  height: 50px;
+
+}
+
+input[type=submit]:hover {
+	background: #60d1c9;
+  text-decoration: none;
+}
+
+textarea {
+	width: 100%;
+	background-color: #ebebeb;
+	border: none;
+
+}
+
+.portbody {
+	font-family: "Helvetica";
+	font-size: 15px;
+	float: left;
+	width: 650px;
+	background-color: #ffffff;
+	margin-top: 75px;
+	margin-left: 75px;
+	display: block;
+	clear: left;
+	border: 0.25px solid #d3d3d3; 
+	padding: 20px;
+	position: relative;
+	left: 75px;
+	top: 55px;
+}
+
+.porthead{
+	font-size: 20px;
+	color: #4aaaa5;
+	font-weight: bold;
+	font-family: "Georgia";
+}
+
+.boxlink {
+	float: left;
+	padding: 25px;
+}
+
+#hangman,
+#trivia,
+#rps {
+	padding-left: 75px;
+}
+
+#rpg,
+#widget,
+#symmetry {
+	float: right;
+	padding-right: 75px;
+}
+h3 {
+	width: 100%;
+	height: 35px;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: -70px;
+	font-size: 18px;
+	font-weight: 600;
+	padding-top: 15px;
+}
